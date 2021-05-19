@@ -5,4 +5,4 @@ For start:
 python ws_app.py
 
 Require environment variable:
-export ROS2_MONITOR_PATH=path_to_ros2_monitor_script
+export ROS_MONITOR_PATH=path_to_ros_monitor_script
