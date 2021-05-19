@@ -4,7 +4,7 @@ import pathlib
 import json
 import os
 
-pkg_path = os.environ['ROS2_MONITOR_PATH']
+pkg_path = os.environ['ROS_MONITOR_PATH']
 
 sys.path.insert(0, pkg_path)
 
