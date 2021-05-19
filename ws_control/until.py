@@ -4,7 +4,9 @@ import pathlib
 import json
 import os
 
-module_path = '/home/root/ws/src/Odroid_arduino_client/src'
+pkg_path = os.environ['ROS2_PKG_PATH']
+
+module_path = pkg_path + '/Odroid_arduino_client/src'
 sys.path.insert(0, module_path)
 
 from monitor import Monitor, rospy
