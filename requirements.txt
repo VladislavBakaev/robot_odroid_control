@@ -3,3 +3,4 @@ Flask-Sockets==0.2.1
 gevent==21.1.2
 gevent-websocket==0.10.1
 pathlib==1.0.1
+MarkupSafe==1.1.1
