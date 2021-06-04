@@ -4,16 +4,7 @@ import pathlib
 import json
 import os
 
-pkg_path_default = ""
-
-pkg_path = os.environ.get('ROS_MONITOR_PATH')
-
-if pkg_path is None:
-    pkg_path = pkg_path_default
-
-sys.path.insert(0, pkg_path)
-
-from monitor import Monitor, rospy
+from Odroid_arduino_client.monitor import Monitor, rospy
 
 class MonitorManager():
     def __init__(self):
