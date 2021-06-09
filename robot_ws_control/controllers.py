@@ -6,7 +6,7 @@ import json
 import pathlib
 import sys
 
-from ws_control.until import MonitorManager, get_param
+from robot_ws_control.until import MonitorManager, get_param
 
 server = Blueprint('ws', __name__, url_prefix=r'/ws/robot')
 
