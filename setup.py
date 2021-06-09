@@ -11,8 +11,9 @@ setup(
     name="robot_odroid_control",
     version="1.0.0",
     description="Web server for robot corol",
-    py_modules=["ws_app"],
-    packages=["ws_control"],
-    package_data={"ws_control": ["rate_config_ws.json"]},
-    install_requires=reqs
+    py_modules=["odroid_robot_ws_app"],
+    packages=["robot_ws_control"],
+    package_data={"robot_ws_control": ["rate_config_ws.json"]},
+    install_requires=reqs,
+    scripts=['odroid_robot_ws_app.py']
 )
