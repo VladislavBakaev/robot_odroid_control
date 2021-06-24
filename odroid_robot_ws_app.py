@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import argparse
 from robot_ws_control import create_app
 
